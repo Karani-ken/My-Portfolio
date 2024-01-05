@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .home{
-    height: 100vh;
+    height: 90vh;
     display: flex;       
 }
 .small{
@@ -14,9 +14,12 @@
     color: #fff;
     text-align: center;
 }
+.small h3{
+    margin: 5% 0;
+}
 .big-circle{
     background-color: #141C37;     
-    margin: 10% -20%;
+    margin: 7% -20%;
     width: 450px;
     height: 450px;
     border-radius: 100%;
@@ -83,3 +86,25 @@
     border-radius: 5px;
     font-weight: bold;
 }
+.home-content{
+    margin: 10% 30%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-text h1{
+    margin: 5% 0;
+    font-weight: bolder;
+}
+.intro-text p{
+    margin: 10% 0;
+    font-weight: bolder;
+}
+.platforms{
+    margin: 5% 0;
+}
+.platforms img{
+    width: 30px;
+    margin: 50%;
+}
+
