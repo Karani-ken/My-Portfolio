@@ -231,6 +231,9 @@ section{
 }
 .about-pic{
     border-radius: 2rem;
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
 }
 .arrow{
     position: absolute;
