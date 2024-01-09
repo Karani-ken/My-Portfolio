@@ -51,7 +51,7 @@
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Karani Ken</h1>
             <p class="section__text__p2">Web Developer</p>
-            <div class="b tn-container">
+            <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/kenneth Karani Resume.pdf')">
                     Download CV
                 </button>
@@ -60,10 +60,18 @@
                 </button>
             </div>
             <div id="socials-container">
-                <button class="icon" onclick="location.href='https://www.linkedin.com/in/kenneth-karani-95344527b/'">
-                    <i class="fa-brands fa-linkedin"></i></button>
-                <button class="icon" onclick="location.href='https://github.com/Karani-ken'"><i
-                        class="fa-brands fa-github"></i></button>
+                <img
+                src="./assets/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://linkedin.com/'"
+              />
+              <img
+                src="./assets/github.png"
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/'"
+              />
             </div>
         </div>
     </section>
@@ -265,12 +273,39 @@
                     </div>
                 </div>
             </div>
-         
+
         </div>
-        <img src="./assets/arrow.png" alt="" 
-        class="icon arrow"
-         onclick="location.href='./#contact'">
+        <img src="./assets/arrow.png" alt="" class="icon arrow" onclick="location.href='./#contact'">
     </section>
+    <!--Contacts section-->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="" class="icon contact-icon email-icon">
+                <p><a href="mailto:kenneth0karani@gmail.com">kenneth0karani@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/kenneth-karani-95344527b/">Linkedin</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Kenneth Karani. All Rights Reserved.</p>
+    </footer>
     <script src="./script.js"></script>
 </body>
 
